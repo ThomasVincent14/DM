@@ -7,6 +7,7 @@
 .body {
   margin: 0;
   background: black;
+  margin: auto;
 }
 .fwh-slide {
   color: white;
@@ -90,19 +91,19 @@ div.gallery {
     width: 24.99999%;
   }
   
-  @media only screen and (max-width: 700px) {
+  /* @media only screen and (max-width: 700px) {
     .responsive {
       width: 49.99999%;
       margin: 6px 0;
     }
-  }
+  } */
   
-  @media only screen and (max-width: 500px) {
+  /* @media only screen and (max-width: 500px) {
     .responsive {
       width: 100%;
     }
   }
-  
+   */
   .clearfix:after {
     content: "";
     display: table;
@@ -126,12 +127,12 @@ div.gallery {
     color:black;
     box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px black;
    font-weight: bold;
-   font-family: 'Merriweather Sans', sans-serif;;
+   font-family: 'Merriweather Sans', sans-serif;
 }
 .about{
   width: 100%;
   padding: 78px 0px;
-  background-color: black;
+  background-color: black; 
 }
 .about img{
   height: auto;
@@ -305,4 +306,7 @@ height: auto;
 .fa-youtube::before {
   font-size: 50px;
 }
-
+#social-media {
+  min-height: 100vh;
+  padding-bottom: 2%;
+}
